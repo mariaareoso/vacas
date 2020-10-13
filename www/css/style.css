@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+
+    max-width: 100%;
+  }
+
+  body {
+      
+      font-family: Roboto, sans-serif;
+      background:  #d17729; 
+  }
+
+  body> header {
+    
+    
+    height: auto;
+    padding: 4rem 0 4rem 0;
+    background-image:  url('/css/imagenes/cabecera.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+
+  }
+
+    footer a {
+        text-align: center;
+        padding: 1rem;
+        color: black;
+        background-color: grey;
+        display: block;
+        text-decoration: inherit;
+    }
+
+    #intro {
+
+        color:black;
+        column-count: 2;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    
+    h2 {
+        
+        color: white;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+    }
+    
+
+    h1 {
+        
+        
+        font-family: Roboto, sans-serif;
+        text-align: center;
+        color: white;
+        padding-top: 3rem;
+    }
+
+    #vacas ul  {
+
+        list-style: none;
+
+    }
+
+    #vacas li {
+       
+        background-color: black;
+        color: white;
+        margin: 2rem;
+        
+    }
+
+    section p {
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+
+    
+
+    img {
+
+         margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+
+
+    footer {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+     } 
+
+  #formulario {
+    
+    padding: 0 1rem;
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    color:  #d17729;
+    
+  }
+
+  fieldset {
+    width: 100%;
+    border: none;
+    color: black;
+    margin-top: 1rem;
+  }
+
+  input {
+    width: 100%;
+    display: block;
+    background-color: #d17729;
+    background-origin: 1px solid black;
+    
+  }
+
+  select {
+    display: block;
+    background-color: #d17729;
+    
+  }
+
+  textarea {
+    display: block;
+    background-color:#d17729;
+  }
+
+  button {
+      
+      background-color: black;
+      color: white;
+  }
+
+
+
+  @media (min-width: 700px) {
+    html {
+      font-size: 18px;
+    }
+
+
+
+  }
+    @media (min-width: 1000px) {
+        html {
+          font-size: 22px;
+        }
+
+  
+    #vacas  {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        }
+
+     }
+      
+        
+
+  
+
+
+
+ 
+
+
+  
+  

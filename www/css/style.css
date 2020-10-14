@@ -7,6 +7,21 @@
     box-sizing: border-box;
   }
 
+
+     /* colores */
+
+  html {
+
+    --main:  #d17729;
+    --dark: rgb (0,0,0);
+    --light-dark: rgb (196,196,196);
+    --light: white;
+    --font-xl:4rem;
+    --font-normal:1rem;
+    --font-small:0.75rem;
+
+  }
+
   img {
 
     max-width: 100%;
@@ -15,19 +30,27 @@
   body {
       
       font-family: Roboto, sans-serif;
-      background:  #d17729; 
+      background: var(--main); 
   }
 
-  body> header {
+  /* header */
+
+  body > header {
     
     
     height: auto;
     padding: 4rem 0 4rem 0;
     background-image:  url('/css/imagenes/cabecera.jpeg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    position: relative;
+   
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
 
   }
 
@@ -61,7 +84,7 @@
 
     h1 {
         
-        
+        flex-grow: 1;
         font-family: Roboto, sans-serif;
         text-align: center;
         color: white;
@@ -94,9 +117,9 @@
     
 
     img {
-
-         margin-top: 2rem;
-        margin-left: 1rem;
+        object-fit: cover;
+        width: 100%;
+         
     }
 
 
